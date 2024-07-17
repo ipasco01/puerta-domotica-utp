@@ -10,5 +10,4 @@ Librerias incluidas
 #include <LiquidCrystal_I2C.h>
 #include <EEPROM.h>
 #include <SoftwareSerial.h>
-
 ```
