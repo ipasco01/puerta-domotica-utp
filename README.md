@@ -3,7 +3,8 @@
 # Puerta Domotica Trabajo Final
 Grupo 1
 
-Librerias incluidas
+Librerias incluidas en este proyecto
+
 ``` 
 #include <Keypad.h>
 #include <Wire.h>
