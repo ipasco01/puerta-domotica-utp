@@ -23,6 +23,7 @@ Este proyecto consiste en un sistema de control de acceso mediante una puerta do
 - [Descripción](#descripción)
 - [Requisitos](#requisitos)
 - [Configuración del Hardware](#configuración-del-hardware)
+- [Comunicacion Serial](#comunicacion-serial)
 - [Configuración del Software](#configuración-del-software)
 - [Instalación](#instalación)
 - [Uso](#uso)
@@ -77,7 +78,12 @@ Para reproducir este proyecto, necesitarás los siguientes componentes:
     - GND del módulo Bluetooth a la breadboard
 
 3. **Pantalla LCD**: Conecta la pantalla LCD a la breadboard compartiendo el VCC y GND con el módulo Bluetooth.
+## Comunicacion Serial
+1. Se tienen que conectar los dos arduinos mediante comunicacion serial.
 
+2. El primer arduino usando el pin RX hacia el segundo arduino usando el pin TX
+        **RX->TX**
+        
 ## Configuración del Software
 
 1. **Arduino**: Programa ambos Arduinos con los sketches proporcionados en la carpeta `arduino_code`.
